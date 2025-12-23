@@ -93,6 +93,11 @@ image = "/hackclub.png"
 url = "https://hackclub.com/"
 
 [[params.buttons]]
+name = "Hugo"
+image = "/hugo.png"
+url = "https://gohugo.io/"
+
+[[params.buttons]]
 name = "Trans rights"
 image = "/transrights.gif"
 url = "https://www.thetrevorproject.org/"
@@ -140,4 +145,34 @@ url = "#"
 [[params.buttons]]
 name = "Right to repair"
 image = "/repair.gif"
-url = "#"
+url = "https://en.wikipedia.org/wiki/Right_to_repair"
+
+[[params.buttons]]
+name = "Catpuccin"
+image = "/cattheme.png"
+url = "https://catppuccin.com/"
+
+[[params.buttons]]
+name = "VSCode"
+image = "/vscode.png"
+url = "https://code.visualstudio.com/"
+
+[[params.buttons]]
+name = "Don't be a phone chump"
+image = "/phone.gif"
+url = "https://frame.work/"
+
+[[params.buttons]]
+name = "3DS"
+image = "/3ds.png"
+url = "https://pretendo.network/docs/install/3ds"
+
+[[params.buttons]]
+name = "Archive"
+image = "/archive.gif"
+url = "https://archive.org/"
+
+[[params.buttons]]
+name = "Pokemon center"
+image = "/pokemoncenter.gif"
+url = "https://www.pokemoncenter.com/"
