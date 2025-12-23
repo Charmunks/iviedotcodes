@@ -1,0 +1,143 @@
+baseURL = 'https://ivie.codes'
+languageCode = 'en-us'
+title = "Ivie's site"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "Ivie's little slice of the internet"
+
+theme = 'auto'
+colorPalette = 'base16-cupcake'
+hideHeader = false
+
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+homeIntroTitle = "Hi! I'm Ivie!"
+homeIntroContent = """
+I'm a teenager developer. I work as a software engineer at Hack Club and love to build small projects. I have been tinkering with computers ever since I got my first laptop when I was 7, which I ran linux on.
+"""
+
+# Projects
+[[params.projects]]
+name = "Dropheus"
+description = "Dropheus is a Browser extention to automatically check if products online are dropshipped"
+url = "https://github.com/Charmunks/dropheus-monorepo"
+
+[[params.projects]]
+name = "Spaces"
+description = "Spaces is a web app that creates secure cloud based development enviorments, accessible through a web browser."
+url = "https://github.com/hackclub/spaces"
+
+[[params.projects]]
+name = "Airlua"
+description = "Airlua is an comprehensive Airtable API client for Lua, supporting all Airtable API methods."
+url = "https://github.com/Charmunks/airlua"
+
+[[params.projects]]
+name = "Breezed"
+description = "Breezed is a CLI tool to quickly spin up and manage remote VPSes."
+url = "https://github.com/Charmunks/airlua"
+
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Buttons
+[[params.buttons]]
+name = "3kh0"
+image = "/3kh0.webp"
+url = "https://3kh0.net/"
+
+[[params.buttons]]
+name = "Neon"
+image = "https://raw.githubusercontent.com/NeonGamerBot-QK/NeonGamerBot-QK/refs/heads/main/webring.gif"
+url = "https://saahild.com/"
+
+[[params.buttons]]
+name = "Lynn"
+image = "/lynn.webp"
+url = "https://lynn.pt/"
+
+[[params.buttons]]
+name = "Hack Club"
+image = "/hackclub.png"
+url = "https://hackclub.com/"
+
+[[params.buttons]]
+name = "Trans rights"
+image = "/transrights.gif"
+url = "https://www.thetrevorproject.org/"
+
+[[params.buttons]]
+name = "Anything but chrome"
+image = "/firefox.gif"
+url = "https://www.firefox.com/en-US/"
+
+[[params.buttons]]
+name = "Queer coded"
+image = "/queer.png"
+url = "#"
+
+[[params.buttons]]
+name = "Ublock Origin"
+image = "/ublock.png"
+url = "https://ublockorigin.com/"
+
+[[params.buttons]]
+name = "RSS"
+image = "/rss.png"
+url = "/index.xml"
+
+[[params.buttons]]
+name = "Pride"
+image = "/pride.gif"
+url = "#"
+
+[[params.buttons]]
+name = "Anti-Apple"
+image = "/itoddler.gif"
+url = "#"
+
+[[params.buttons]]
+name = "Don't feed the AI"
+image = "/ai.gif"
+url = "https://keepthefuturehuman.ai/"
+
+[[params.buttons]]
+name = "Internet Privacy"
+image = "/internetpriv.gif"
+url = "#"
+
+[[params.buttons]]
+name = "Right to repair"
+image = "/repair.gif"
+url = "#"
