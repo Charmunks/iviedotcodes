@@ -28,6 +28,20 @@ homeIntroContent = """
 I'm a teenager developer. I work as a software engineer at Hack Club and love to build small projects. I have been tinkering with computers ever since I got my first laptop when I was 7, which I ran linux on.
 """
 
+# Social Icons
+[[params.social]]
+name = "github"
+url = "https://github.com/Charmunks"
+
+[[params.social]]
+name = "hackclub"
+url = "https://hackclub.enterprise.slack.com/team/U07UV4R2G4T"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ivie-fonner/"
+
+
 # Projects
 [[params.projects]]
 name = "Dropheus"
