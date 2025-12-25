@@ -102,6 +102,13 @@ image = "/lynn.webp"
 url = "https://lynn.pt/"
 
 [[params.buttons]]
+name = "Taggie"
+image = "https://yip.cat/88x31"
+url = "https://yip.cat/"
+
+
+
+[[params.buttons]]
 name = "Hack Club"
 image = "/hackclub.png"
 url = "https://hackclub.com/"
@@ -175,11 +182,6 @@ url = "https://code.visualstudio.com/"
 name = "Don't be a phone chump"
 image = "/phone.gif"
 url = "https://frame.work/"
-
-[[params.buttons]]
-name = "3DS"
-image = "/3ds.png"
-url = "https://pretendo.network/docs/install/3ds"
 
 [[params.buttons]]
 name = "Archive"
