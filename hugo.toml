@@ -106,7 +106,10 @@ name = "Taggie"
 image = "https://yip.cat/88x31"
 url = "https://yip.cat/"
 
-
+[[params.buttons]]
+name = "Queer Again"
+image = "/queeragain.png"
+url = "https://queerweb.org"
 
 [[params.buttons]]
 name = "Hack Club"
@@ -142,11 +145,6 @@ url = "https://ublockorigin.com/"
 name = "RSS"
 image = "/rss.png"
 url = "/index.xml"
-
-[[params.buttons]]
-name = "Pride"
-image = "/pride.gif"
-url = "#"
 
 [[params.buttons]]
 name = "Anti-Apple"
