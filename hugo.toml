@@ -190,3 +190,12 @@ url = "https://archive.org/"
 name = "Pokemon center"
 image = "/pokemoncenter.gif"
 url = "https://www.pokemoncenter.com/"
+
+[params.giscus]
+enable = true
+repo = "charmunks/iviedotcodes"
+repoid = "R_kgDOQttuTg"
+category = "Announcements"
+categoryid = "DIC_kwDOQttuTs4C0kpj"
+mapping = "pathname"
+theme = "preferred_color_scheme"
