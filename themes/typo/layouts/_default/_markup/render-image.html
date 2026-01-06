@@ -9,10 +9,12 @@ https://github.com/gohugoio/hugo/blob/89bd02/tpl/tplimpl/embedded/templates/_def
 {{- if not $u.IsAbs -}}
   {{- $path := strings.TrimPrefix "./" $u.Path -}}
   {{/* Check if this is a page bundle or standalone page */}}
-  {{- if .PageInner.Resources -}}
-    {{- $imgResource = .PageInner.Resources.Get $path -}}
-  {{- else if (or .PageInner.Parent .PageInner.Parent.Resources) -}}
-    {{- $imgResource = .PageInner.Parent.Resources.Get $path -}}
+  {{- with .Page.Resources.Get $path -}}
+    {{- $imgResource = . -}}
+  {{- else -}}
+    {{- with .Page.Parent -}}
+      {{- $imgResource = .Resources.Get $path -}}
+    {{- end -}}
   {{- end -}}
   {{- $imgResource := or $imgResource (resources.Get $path) -}}
   {{- with $imgResource -}}
@@ -57,6 +59,10 @@ and build the img class string as "img-tag1 img-tag2 ..."
             <img loading="lazy" alt="{{ $text }}" src="{{ $url }}" width="{{ .Width }}" height="{{ .Height }}">
         </div>
       {{ end }}
+    {{ else }}
+      <div class="img-container">
+          <img loading="lazy" alt="{{ $text }}" src="{{ $url }}">
+      </div>
     {{ end }}
 
     {{ with .Title }}
