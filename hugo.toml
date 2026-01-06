@@ -1,6 +1,6 @@
 baseURL = 'https://ivie.codes'
 languageCode = 'en-us'
-title = "Ivie's site"
+title = "Ivie's Island"
 theme = 'typo'
 
 [taxonomies]
@@ -8,11 +8,10 @@ tag = 'tags'
 
 [params]
 description = "Ivie's little slice of the internet"
-
 theme = 'auto'
 colorPalette = 'base16-cupcake'
 hideHeader = false
-
+faviconPath = "/"
 
 # Collection to display on home
 homeCollectionTitle = 'Posts'
@@ -25,7 +24,9 @@ listDateFormat = '2 Jan 2006'
 
 homeIntroTitle = "Hi! I'm Ivie!"
 homeIntroContent = """
-You may know me by the username "Charmunk". I'm a teenager developer. I work as a software engineer at Hack Club and love to build small projects. I have been tinkering with computers ever since I got my first laptop when I was 7, which I ran linux on.
+Hey! You may know me from my online alias "Charmunk". I'm a teenage developer and love to tinker with technology. I've been working with tech since a very young age.
+
+I am primarily a web developer, but I do dabble in games, hardware, and software/ClI's every once in a while.
 """
 
 # Social Icons
@@ -88,7 +89,7 @@ style = 'algol'
 # Buttons
 [[params.buttons]]
 name = "3kh0"
-image = "/3kh0.webp"
+image = "/buttons/3kh0.webp"
 url = "https://3kh0.net/"
 
 [[params.buttons]]
@@ -98,7 +99,7 @@ url = "https://saahild.com/"
 
 [[params.buttons]]
 name = "Lynn"
-image = "/lynn.webp"
+image = "/buttons/lynn.webp"
 url = "https://lynn.pt/"
 
 [[params.buttons]]
@@ -108,87 +109,87 @@ url = "https://yip.cat/"
 
 [[params.buttons]]
 name = "Queer Again"
-image = "/queeragain.png"
+image = "/buttons/queeragain.png"
 url = "https://queerweb.org"
 
 [[params.buttons]]
 name = "Hack Club"
-image = "/hackclub.png"
+image = "/buttons/hackclub.png"
 url = "https://hackclub.com/"
 
 [[params.buttons]]
 name = "Hugo"
-image = "/hugo.png"
+image = "/buttons/hugo.png"
 url = "https://gohugo.io/"
 
 [[params.buttons]]
 name = "Trans rights"
-image = "/transrights.gif"
+image = "/buttons/transrights.gif"
 url = "https://www.thetrevorproject.org/"
 
 [[params.buttons]]
 name = "Anything but chrome"
-image = "/firefox.gif"
+image = "/buttons/firefox.gif"
 url = "https://www.firefox.com/en-US/"
 
 [[params.buttons]]
 name = "Queer coded"
-image = "/queer.png"
+image = "/buttons/queer.png"
 url = "#"
 
 [[params.buttons]]
 name = "Ublock Origin"
-image = "/ublock.png"
+image = "/buttons/ublock.png"
 url = "https://ublockorigin.com/"
 
 [[params.buttons]]
 name = "RSS"
-image = "/rss.png"
+image = "/buttons/rss.png"
 url = "/index.xml"
 
 [[params.buttons]]
 name = "Anti-Apple"
-image = "/itoddler.gif"
+image = "/buttons/itoddler.gif"
 url = "#"
 
 [[params.buttons]]
 name = "Don't feed the AI"
-image = "/ai.gif"
+image = "/buttons/ai.gif"
 url = "https://keepthefuturehuman.ai/"
 
 [[params.buttons]]
 name = "Internet Privacy"
-image = "/internetpriv.gif"
+image = "/buttons/internetpriv.gif"
 url = "#"
 
 [[params.buttons]]
 name = "Right to repair"
-image = "/repair.gif"
+image = "/buttons/repair.gif"
 url = "https://en.wikipedia.org/wiki/Right_to_repair"
 
 [[params.buttons]]
 name = "Catpuccin"
-image = "/cattheme.png"
+image = "/buttons/cattheme.png"
 url = "https://catppuccin.com/"
 
 [[params.buttons]]
 name = "VSCode"
-image = "/vscode.png"
+image = "/buttons/vscode.png"
 url = "https://code.visualstudio.com/"
 
 [[params.buttons]]
 name = "Don't be a phone chump"
-image = "/phone.gif"
+image = "/buttons/phone.gif"
 url = "https://frame.work/"
 
 [[params.buttons]]
 name = "Archive"
-image = "/archive.gif"
+image = "/buttons/archive.gif"
 url = "https://archive.org/"
 
 [[params.buttons]]
 name = "Pokemon center"
-image = "/pokemoncenter.gif"
+image = "/buttons/pokemoncenter.gif"
 url = "https://www.pokemoncenter.com/"
 
 [params.giscus]
