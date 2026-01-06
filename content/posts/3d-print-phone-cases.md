@@ -20,7 +20,7 @@ toc: false
 
 I got a new phone recently, the brand new Google Pixel 10. It's a great phone, but I completely forgot to order a case along with it, and with my luck by the time a case arrived I would have dropped it already.
 
-I ordered a case off amazon but the fasted shipping option would not come for a few days. Not wanting to have to wait to use my new phone, I turned to 3D printing as the only alternative I could think of.
+I ordered a case off amazon but the fastest shipping option would not come for a few days. Not wanting to have to wait to use my new phone, I turned to 3D printing as the only alternative I could think of.
 
 After a quick look on MakerWorld, I only found 2 cases for this phone, which makes sense, because it is very new. I decided to go with the more recent of the two, and it seemed to have mostly good reviews ([model link](makerworld.com/en/models/1752215-pixel-10-case-v2))
 
